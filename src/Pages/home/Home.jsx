@@ -13,6 +13,8 @@ import VectorBlusa from "../../assets/vectorBlusa.png"
 import VectorCalca from "../../assets/vectorCalca.png"
 import VectorTenis from "../../assets/vectorTenis.png"
 import VectorHeadphone from "../../assets/vectorHeadphone.png"
+import ArrowForward from "../../assets/arrowForward.png"
+import TenisKSwiss from "../../assets/tenisKSwiss.png"
 
 function Home() {
     return (
@@ -82,10 +84,19 @@ function Home() {
           </div>
         </div>
         <div className="containerProdutosEmAlta">
-            <h1 className="titleProdutosEmAlta">Produtos em Alta</h1>
+            <div className="titleSubtitleProdutosEmAlta">
+              <h1 className="titleProdutosEmAlta">Produtos em Alta</h1>
+              <p>Ver todos <img src={ArrowForward} alt="imagem de seta apontando para a direita" /></p>
+            </div>
             <div className="cardsProdutosEmAlta">
               <CardsProdutosEmAlta 
-                
+                promocao="30% OFF"
+                imageSrc={TenisKSwiss}
+                imageAlt="imagem de tenis k-swiss branco com detalhes em azul e laranja"
+                SubDescricaoProdutosEmAlta="Tênis"
+                descricaoProdutosEmAlta="K-Swiss V8 - Masculino"
+                precoOriginalSubcard="$200"
+                precoDescontoSubcard="$100"
               />
             </div>
         </div>
