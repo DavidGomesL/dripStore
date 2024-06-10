@@ -125,7 +125,7 @@
 }
 /*--------SubcontainerDestaques------------*/
 .subcontainerDestaques{
-    height: 60vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,4 +160,36 @@
 .imgSubCardsDestaques:hover {
     filter: brightness(0) invert(23%) sepia(100%) saturate(1645%) hue-rotate(331deg) brightness(90%) contrast(84%);
     cursor: pointer;
+}
+/*------containerProdutosEmAlta----------------*/
+.containerProdutosEmAlta{
+    border: 1px solid red;
+}
+.titleSubtitleProdutosEmAlta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.titleProdutosEmAlta{
+    font-size: 1.6rem;
+}
+.subTitleProdutosEmAlta{
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    cursor: pointer;
+}
+.subTitleProdutosEmAlta:hover {
+    color: #C92071;
+    font-weight: 600;
+}
+.subTitleProdutosEmAlta img{
+    height: 1.5rem;
+}
+.subTitleProdutosEmAlta:hover img {
+    filter: sepia(1) saturate(10000%) hue-rotate(-50deg);
 }

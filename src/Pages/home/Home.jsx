@@ -86,7 +86,7 @@ function Home() {
         <div className="containerProdutosEmAlta">
             <div className="titleSubtitleProdutosEmAlta">
               <h1 className="titleProdutosEmAlta">Produtos em Alta</h1>
-              <p>Ver todos <img src={ArrowForward} alt="imagem de seta apontando para a direita" /></p>
+              <p className="subTitleProdutosEmAlta">Ver todos <img src={ArrowForward} alt="imagem de seta apontando para a direita" /></p>
             </div>
             <div className="cardsProdutosEmAlta">
               <CardsProdutosEmAlta 
