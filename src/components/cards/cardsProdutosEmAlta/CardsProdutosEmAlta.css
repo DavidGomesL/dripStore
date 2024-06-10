@@ -1,0 +1,19 @@
+.imgCardProdutosEmAlta{
+    height: 16rem;
+}
+.containerImgEPromo{
+    border: 1px solid orangered;
+}
+.promocaoOff{
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: #E7FF86;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}

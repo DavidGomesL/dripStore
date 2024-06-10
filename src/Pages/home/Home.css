@@ -169,8 +169,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 10rem;
+    padding-right: 8rem;
 }
 .titleProdutosEmAlta{
     font-size: 1.6rem;
@@ -194,6 +194,11 @@
     filter: sepia(1) saturate(10000%) hue-rotate(-50deg);
 }
 /*------cardProdutosEmAlta------------------------*/
-.cardProdutosEmAlta{
+.produtosEmAlta{
     border: 1px solid orangered;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10rem;
+    margin-top: 2rem;
+    gap: 2rem;
 }

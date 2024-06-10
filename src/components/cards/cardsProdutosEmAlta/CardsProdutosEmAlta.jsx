@@ -1,10 +1,14 @@
+import "./CardsProdutosEmAlta.css"
+
 function CardsProdutosEmAlta(props) {
     
     return(
         <>
             <div className="cardProdutosEmAlta">
-                <p className="promocaoOff">{props.promocao}</p>
-                <img className="imgCardProdutosEmAlta" src={props.imageSrc} alt={props.imageAlt} />
+                <div className="containerImgEPromo">
+                    <p className="promocaoOff">{props.promocao}</p>
+                    <img className="imgCardProdutosEmAlta" src={props.imageSrc} alt={props.imageAlt} />
+                </div>
                 <p className="SubDescricaoProdutosEmAlta">{props.SubDescricaoProdutosEmAlta}</p>
                 <h3 className="descricaoProdutosEmAlta">{props.descricaoProdutosEmAlta}</h3>
                 <div className="precosCardsProdutosEmAlta">
