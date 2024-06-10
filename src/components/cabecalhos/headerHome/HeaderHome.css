@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*---------containerHeader----------------------*/
+#containerHeader{
+    display: flex;
+    height: 20vh;
+    margin-left: 4vw;
+    padding-top: 4vh;
+    
+}
+/*---------containerOne------------------------*/
+.containerUm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 71%;
+    padding-left: 8vw;
+}
+.imgLogo{
+    height: 6vh;
+}
+
+.inputHeader{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    width: 35vw;
+    margin-left: 16.3vw;
+    background-color: rgba(237, 236, 236, 0.1);
+    filter: drop-shadow(0.1rem 0rem 0.1rem rgba(0, 0, 0, 0.3));
+    border-radius: 0.5rem;
+}
+.inputHeader input{
+    width: 33vw;
+    height: 5vh;
+    padding-left: 1vw;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(102, 102, 102, 0.5);
+    font-size: 1.2rem;
+}
+.inputHeader input::placeholder{
+    color: rgba(102, 102, 102, 0.5);
+}
+.imgSearch{
+    height: 4vh;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.criarContaHeader{
+    justify-self: end;
+    align-content: center;
+    padding-left: 0.5rem;
+    height: 5vh;
+    width: 6vw;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: rgb(72, 72, 72);
+}
+.listHeaderHome{
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 6vh;
+    gap: 1.2vw;
+    list-style: none;
+}
+.listHeaderHome li{
+    font-size: 1.1rem;
+}
+.listHeaderHome li:hover{
+    color: rgba(201, 32, 113, 1);
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*---------containerDois------------------------*/
+.containerDois{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    padding-left: 2rem;
+    height: 5.5vh;
+}
+.containerDois button{
+    width: 8vw;
+    height: 6vh;
+    background-color: rgba(201, 32, 113, 1);
+    border: none;
+    border-radius: 0.5rem;
+}
+.linkEntrarHeaderHome{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.shoppingCart{
+    height: 4.5vh;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(52%) sepia(90%) saturate(3000%) hue-rotate(299deg) brightness(0.8) contrast(111%);
+}

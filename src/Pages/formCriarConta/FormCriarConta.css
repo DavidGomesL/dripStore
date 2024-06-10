@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* --------containerForm------------------------------*/
+#containerForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-top: 6vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 6vh;
+}
+/*--------titleForm-----------------------------*/
+.titleForm h1{
+    position: relative;
+    font-size: 2.6rem;
+}
+/*---------------------------------*/
+.checked{
+    display: flex;
+    margin-top: 6vh;
+    gap: 0.6rem;
+}
+/* Esconde o input checkbox */
+#meuCheckbox {
+    display: none;
+} 
+/* Estiliza o label para parecer um checkbox */
+.custom-checkbox {
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.5rem;
+    border: 1.5px solid #ccc;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    position: relative;
+}
+/* Estiliza o ícone de check */
+.custom-checkbox::after {
+    content: "\2713"; /* Código do ícone de check (checkmark) */
+    font-size: 1.2rem; /* Tamanho do ícone */
+    color: transparent; /* Inicialmente transparente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.checked button{
+    width: 1vw;
+    height: 2vh;
+    
+}

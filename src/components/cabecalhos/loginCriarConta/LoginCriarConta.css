@@ -1,0 +1,8 @@
+/*----------LogoPrincipal------------------------------*/
+.LogoPrincipal{
+    display: flex;
+    height: 12vh;
+    padding-left: 5vw;
+    align-items: center;
+    cursor: pointer;
+}
