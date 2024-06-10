@@ -92,6 +92,9 @@ function Home() {
               <ProdutosEmAlta />
             </div>
         </div>
+        <div className="ofertaEspecial">
+          <h1>Oferta Especial</h1>
+        </div>
       </>
     )
   }

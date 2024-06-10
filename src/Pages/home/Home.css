@@ -162,9 +162,6 @@
     cursor: pointer;
 }
 /*------containerProdutosEmAlta----------------*/
-.containerProdutosEmAlta{
-    border: 1px solid red;
-}
 .titleSubtitleProdutosEmAlta{
     display: flex;
     justify-content: space-between;
@@ -195,10 +192,17 @@
 }
 /*------cardProdutosEmAlta------------------------*/
 .produtosEmAlta{
-    border: 1px solid orangered;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 10rem;
     margin-top: 2rem;
     gap: 2rem;
+}
+/*--------ofertaEspecial---------------------------*/
+.ofertaEspecial{
+    border: 1px solid red;
+    height: 25rem;
+}
+.ofertaEspecial h1{
+    font-size: 1.8rem;
 }
