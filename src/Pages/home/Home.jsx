@@ -2,7 +2,7 @@ import HeaderHome from "../../components/cabecalhos/headerHome/HeaderHome"
 import "./Home.css"
 import CardsDestaquesOpcaoUm from "../../components/cards/cardsDestaques/CardsDestaquesOpcaoUm"
 import CardsDestaquesOpcaoDois from "../../components/cards/cardsDestaques/CardsDestaquesOpcaoDois"
-import CardsProdutosEmAlta from "../../components/cards/produtosEmAlta/CardsProdutosEmAlta"
+import ProdutosEmAlta from "../../components/produtosEmAlta/ProdutosEmAlta"
 import IconeDeChama from "../../assets/iconeDeChama.png"
 import TenisNikeAir from "../../assets/tenisNikeAir.png"
 import Ornamento from "../../assets/ornamento.png"
@@ -14,7 +14,7 @@ import VectorCalca from "../../assets/vectorCalca.png"
 import VectorTenis from "../../assets/vectorTenis.png"
 import VectorHeadphone from "../../assets/vectorHeadphone.png"
 import ArrowForward from "../../assets/arrowForward.png"
-import TenisKSwiss from "../../assets/tenisKSwiss.png"
+
 
 function Home() {
     return (
@@ -89,15 +89,7 @@ function Home() {
               <p className="subTitleProdutosEmAlta">Ver todos <img src={ArrowForward} alt="imagem de seta apontando para a direita" /></p>
             </div>
             <div className="cardsProdutosEmAlta">
-              <CardsProdutosEmAlta 
-                promocao="30% OFF"
-                imageSrc={TenisKSwiss}
-                imageAlt="imagem de tenis k-swiss branco com detalhes em azul e laranja"
-                SubDescricaoProdutosEmAlta="Tênis"
-                descricaoProdutosEmAlta="K-Swiss V8 - Masculino"
-                precoOriginalSubcard="$200"
-                precoDescontoSubcard="$100"
-              />
+              <ProdutosEmAlta />
             </div>
         </div>
       </>

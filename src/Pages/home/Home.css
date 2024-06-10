@@ -193,3 +193,7 @@
 .subTitleProdutosEmAlta:hover img {
     filter: sepia(1) saturate(10000%) hue-rotate(-50deg);
 }
+/*------cardProdutosEmAlta------------------------*/
+.cardProdutosEmAlta{
+    border: 1px solid orangered;
+}
