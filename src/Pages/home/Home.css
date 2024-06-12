@@ -165,6 +165,11 @@
     cursor: pointer;
 }
 /*------containerProdutosEmAlta----------------*/
+.containerProdutosEmAlta{
+    background: linear-gradient(#ededf9e4 55%, #EFEFFF);
+    padding-top: 6rem;
+    height: 65rem;
+}
 .titleSubtitleProdutosEmAlta{
     display: flex;
     justify-content: space-between;
@@ -204,17 +209,14 @@
 }
 /*--------ofertaEspecial---------------------------*/
 .containerOfertaEspecial{
-    border: 1px solid red;
     display: flex;
     height: 50rem;
     justify-content: space-between;
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-left: 4rem;
-    padding-right: 6rem;
-    
+    padding-right: 6rem; 
 }
 .imgOfertaEspecial{
-    border: 1px solid orangered;
     position: relative;
     overflow: hidden;
 }
@@ -228,7 +230,7 @@
 }
 .backgroundImg{
     position: absolute;
-    top: 45%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 45rem;
@@ -237,7 +239,6 @@
     border-radius: 50%;
 }
 .ofertaEspecial{
-    border: 1px solid orange;
     width: 50rem;
     display: flex;flex-direction: column;
     gap: 1rem;

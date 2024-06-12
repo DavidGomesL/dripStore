@@ -1,5 +1,6 @@
 import HeaderHome from "../../components/cabecalhos/headerHome/HeaderHome"
 import "./Home.css"
+import Rodape from "../../components/rodape/Rodape"
 import CardsDestaquesOpcaoUm from "../../components/cards/cardsDestaques/CardsDestaquesOpcaoUm"
 import CardsDestaquesOpcaoDois from "../../components/cards/cardsDestaques/CardsDestaquesOpcaoDois"
 import ProdutosEmAlta from "../../components/produtosEmAlta/ProdutosEmAlta"
@@ -105,6 +106,7 @@ function Home() {
             <button>Ver Oferta</button>
           </div>
         </div>
+        <Rodape />
       </>
     )
   }

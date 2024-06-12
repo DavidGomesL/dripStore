@@ -7,7 +7,7 @@
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 18px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: #fff;
+    background: linear-gradient(#f1f1f6e4 55%, #EFEFFF);
     z-index: 1;
     height: 20rem;
 }
