@@ -14,6 +14,7 @@ import VectorCalca from "../../assets/vectorCalca.png"
 import VectorTenis from "../../assets/vectorTenis.png"
 import VectorHeadphone from "../../assets/vectorHeadphone.png"
 import ArrowForward from "../../assets/arrowForward.png"
+import TenisAirJordan from "../../assets/tenisAirJordan.png"
 
 
 function Home() {
@@ -92,8 +93,17 @@ function Home() {
               <ProdutosEmAlta />
             </div>
         </div>
-        <div className="ofertaEspecial">
-          <h1>Oferta Especial</h1>
+        <div className="containerOfertaEspecial">
+          <div className="imgOfertaEspecial">
+            <div className="backgroundImg"></div>
+            <img src={TenisAirJordan} alt="Imagem de tênis air Jordan branco com detalhes em preto e símbolo na cor verde limão." />
+          </div>
+          <div className="ofertaEspecial">
+            <h4>Oferta Especial</h4>
+            <h1>Air Jordan edição de colecionador</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex impedit error accusamus cum quibusdam debitis similique officia libero explicabo laudantium ducimus sint dolorum facere rem, iure corporis modi totam! Illo ratione facere alias assumenda, incidunt debitis quod repellendus! Explicabo, esse.</p>
+            <button>Ver Oferta</button>
+          </div>
         </div>
       </>
     )
