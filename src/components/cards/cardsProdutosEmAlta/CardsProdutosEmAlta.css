@@ -1,5 +1,7 @@
 .imgCardProdutosEmAlta{
-    height: 16rem;
+    height: 18rem;
+    margin-top: 1rem;
+    width: 18rem;
 }
 .containerImgEPromo{
     position: relative;
@@ -7,6 +9,7 @@
     transition: transform 0.3s ease-in-out;
     background-color: #fff;
     z-index: 1;
+    height: 20rem;
 }
 .promocaoOff{
     position: absolute;
