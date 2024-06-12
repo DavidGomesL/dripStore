@@ -62,9 +62,9 @@
     height: 60vh;
     display: flex;
     flex-direction: column;
-    margin-top: 4vh;
+    padding-top: 4rem;
     gap: 4vh;
-    background: linear-gradient(#e7e7f8e4 55%, #EFEFFF);
+    background: linear-gradient(#ededf9e4 55%, #EFEFFF);
 }
 .titleDestaques{
     font-size: 2rem;
@@ -127,10 +127,12 @@
 /*--------SubcontainerDestaques------------*/
 .subcontainerDestaques{
     height: 35vh;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    background: linear-gradient(#ededf9e4 55%, #EFEFFF);
 }
 .subtitleDestaques{
     font-size: 2rem;
